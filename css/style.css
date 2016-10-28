@@ -48,12 +48,12 @@ img {
 #header {
 	background-color: #eee;
 	border-bottom: 1px solid #e6e6e6;
-	padding: 27px 0;
+	padding: 7px 0;
 }
 #header > div, #footer > div {
 	width: 920px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 10px;
 }
 /** Logo **/
 #header .logo {
@@ -67,7 +67,7 @@ img {
 	font: 15px/30px 'Play';
 	height: 20px;
 	width: 76px;
-	padding-top: 68px;
+	padding-top: 28px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -92,7 +92,7 @@ img {
 }
 #navigation li a {
 	color: #818181;
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 30px;
 	text-decoration: none;
 }
@@ -102,62 +102,66 @@ img {
 #navigation li.active a {
 	color: #f99600;
 }
-#adbox {
-	background: url(../images/bg-adbox.jpg) repeat-x left top;
-	height: 380px;
-	padding: 60px 0;
+#kata {
+	background: url(../images/bg-kata.jpg) repeat-x left top;
+	height: 260px;
+	padding: 60px 60px;
 }
-#adbox > div {
+#kata > div {
 	width: 800px;
 	margin: 0 auto;
-	padding: 0 80px;
+	padding: 0 0px;
 }
-#adbox > div img {
-	float: right;
-	margin-left: 60px;
+#kata > div img {
+	float: left;
+	margin-right: 60px;
 }
-#adbox h1, #adbox h2 {
+#kata > div vid {
+	float: left;
+	margin-right: 60px;
+}
+#kata h1, #kata h2 {
 	color: #2c2c2c;
 	font-size: 60px;
 	line-height: 60px;
 	margin: 0;
 	text-transform: uppercase;
 }
-#adbox h2 {
+#kata h2 {
 	font-size: 30px;
 	line-height: 36px;
 	text-transform: none;
 }
-#adbox p {
+#kata p {
 	font-size: 16px;
 	line-height: 24px;
 	margin: 0;
 }
-#adbox p span {
+#kata p span {
 	display: block;
 	font-size: 12px;
 	width: 360px;
 	padding: 24px 0;
 	text-align: center;
 }
-#adbox p span b {
+#kata p span b {
 	font-weight: normal;
 	display: block;
 	width: 256px;
 }
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
-	min-height: 510px;
+	min-height: 0px;
 	width: 880px;
 	margin: 0 auto;
-	padding: 54px 40px;
+	padding: 30px 10px;
 }
 h1 {
 	color: #3e3e3e;
 	font-size: 30px;
 	font-weight: normal;
-	line-height: 30px;
-	margin: 0 0 30px;
+	line-height: 0px;
+	margin: 0 0 00px;
 }
 h2 {
 	color: #2c2c2c;
@@ -180,7 +184,7 @@ p a {
 }
 #tagline > div {
 	float: left;
-	width: 400px;
+	width: 800px;
 	margin: 0 20px;
 }
 #contents .features {
@@ -189,7 +193,7 @@ p a {
 }
 .features > div {
 	display: inline-block;
-	margin: 0 0 30px;
+	margin: 0 0 10px;
 }
 .features > div img {
 	float: left;
@@ -353,8 +357,8 @@ p a {
 .contact p span {
 	color: #2c2c2c;
 	display: block;
-	font-size: 30px;
-	line-height: 36px;
+	font-size: 15px;
+	line-height: 16px;
 	padding: 18px 0;
 }
 /*------------------------------ FOOTER ------------------------------*/
